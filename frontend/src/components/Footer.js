@@ -67,8 +67,8 @@ const Footer = () => {
         button: "Abonnieren"
       },
       bottom: {
-        copyright: "© 2024 Kronhardt Digital. Alle Rechte vorbehalten.",
-        made_with: "Gemacht mit ❤️ in Berlin"
+        copyright: "© 2025 Kronhardt Digital. Alle Rechte vorbehalten.",
+        made_with: "Gemacht mit ❤️ für digitale Exzellenz"
       }
     },
     en: {
