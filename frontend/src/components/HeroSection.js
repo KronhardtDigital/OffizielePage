@@ -46,9 +46,9 @@ const HeroSection = () => {
           src="https://images.unsplash.com/photo-1708192548343-6359167a3efe"
           alt="Corporate Background"
           className="w-full h-full object-cover"
-          initial={{ scale: 1.2, opacity: 0 }}
+          initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.3 }}
-          transition={{ duration: 1.5, delay: 4.5 }}
+          transition={{ duration: 0.8, delay: 5 }}
         />
         
         {/* Animated background elements */}
