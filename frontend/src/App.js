@@ -5,6 +5,8 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
+import OptimizationSection from './components/OptimizationSection';
+import DeviceShowcaseSection from './components/DeviceShowcaseSection';
 import ComparisonSection from './components/ComparisonSection';
 import TimelineSection from './components/TimelineSection';
 import PortfolioSection from './components/PortfolioSection';
@@ -33,6 +35,8 @@ function App() {
               <HeroSection />
               <AboutSection />
               <ServicesSection />
+              <OptimizationSection />
+              <DeviceShowcaseSection />
               <ComparisonSection />
               <TimelineSection />
               <PortfolioSection />
