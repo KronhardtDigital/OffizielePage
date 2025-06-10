@@ -14,9 +14,19 @@ export const ThemeProvider = ({ children }) => {
   const [isDark, setIsDark] = useState(false);
   const [language, setLanguage] = useState('de');
 
+  // Internationale Sprachen
+  const languages = [
+    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+    { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+    { code: 'nl', name: 'Nederlands', flag: '🇳🇱' }
+  ];
+
   useEffect(() => {
     // Check for saved theme preference or default to light mode
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = localStorage.getItem('kronhardt-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
     if (savedTheme) {
@@ -26,7 +36,7 @@ export const ThemeProvider = ({ children }) => {
     }
 
     // Check for saved language preference
-    const savedLanguage = localStorage.getItem('language');
+    const savedLanguage = localStorage.getItem('kronhardt-language');
     if (savedLanguage) {
       setLanguage(savedLanguage);
     }
@@ -35,7 +45,7 @@ export const ThemeProvider = ({ children }) => {
   const toggleTheme = () => {
     const newTheme = !isDark;
     setIsDark(newTheme);
-    localStorage.setItem('theme', newTheme ? 'dark' : 'light');
+    localStorage.setItem('kronhardt-theme', newTheme ? 'dark' : 'light');
     
     // Update document class for theme
     if (newTheme) {
@@ -45,10 +55,9 @@ export const ThemeProvider = ({ children }) => {
     }
   };
 
-  const toggleLanguage = () => {
-    const newLang = language === 'de' ? 'en' : 'de';
-    setLanguage(newLang);
-    localStorage.setItem('language', newLang);
+  const changeLanguage = (langCode) => {
+    setLanguage(langCode);
+    localStorage.setItem('kronhardt-language', langCode);
   };
 
   // Apply theme to document
@@ -63,8 +72,9 @@ export const ThemeProvider = ({ children }) => {
   const value = {
     isDark,
     language,
+    languages,
     toggleTheme,
-    toggleLanguage,
+    changeLanguage,
   };
 
   return (
