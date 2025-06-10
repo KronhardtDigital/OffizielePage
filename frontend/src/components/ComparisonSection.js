@@ -7,7 +7,8 @@ import {
   PaintBrushIcon,
   WrenchScrewdriverIcon,
   MagnifyingGlassIcon,
-  ClockIcon
+  ClockIcon,
+  CodeBracketIcon
 } from '@heroicons/react/24/outline';
 
 const ComparisonSection = () => {
