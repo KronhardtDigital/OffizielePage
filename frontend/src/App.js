@@ -7,6 +7,7 @@ import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import OptimizationSection from './components/OptimizationSection';
 import DeviceShowcaseSection from './components/DeviceShowcaseSection';
+import DifferentiationSection from './components/DifferentiationSection';
 import ComparisonSection from './components/ComparisonSection';
 import TimelineSection from './components/TimelineSection';
 import PortfolioSection from './components/PortfolioSection';
@@ -37,6 +38,7 @@ function App() {
               <ServicesSection />
               <OptimizationSection />
               <DeviceShowcaseSection />
+              <DifferentiationSection />
               <ComparisonSection />
               <TimelineSection />
               <PortfolioSection />
