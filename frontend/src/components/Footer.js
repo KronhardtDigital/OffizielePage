@@ -120,8 +120,8 @@ const Footer = () => {
         button: "Subscribe"
       },
       bottom: {
-        copyright: "© 2024 Kronhardt Digital. All rights reserved.",
-        made_with: "Made with ❤️ in Berlin"
+        copyright: "© 2025 Kronhardt Digital. All rights reserved.",
+        made_with: "Made with ❤️ for digital excellence"
       }
     }
   };
