@@ -91,7 +91,7 @@ const HeroSection = () => {
             className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white leading-tight mb-6"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 5.2 }}
+            transition={{ duration: 1, delay: 1.2 }}
           >
             <motion.span
               className="block"
