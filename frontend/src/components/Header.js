@@ -110,8 +110,8 @@ const Header = () => {
           ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-lg shadow-lg' 
           : 'bg-transparent'
       }`}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.5 }}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
