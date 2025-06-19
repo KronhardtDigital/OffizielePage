@@ -116,7 +116,7 @@ const HeroSection = () => {
             className="text-xl sm:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto font-light leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 6.2 }}
+            transition={{ duration: 1, delay: 2.2 }}
           >
             {content[language].description}
           </motion.p>
