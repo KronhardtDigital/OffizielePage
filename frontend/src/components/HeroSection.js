@@ -105,7 +105,7 @@ const HeroSection = () => {
               className="block bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, delay: 5.8 }}
+              transition={{ duration: 1, delay: 1.8 }}
             >
               {content[language].subHeadline}
             </motion.span>
