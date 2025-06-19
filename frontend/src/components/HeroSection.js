@@ -181,7 +181,7 @@ const HeroSection = () => {
             ⭐⭐⭐⭐⭐ {content[language].trustText}
           </motion.div>
         </motion.div>
-      </div>
+      </motion.div>
 
       {/* Scroll indicator */}
       <motion.div
