@@ -84,7 +84,7 @@ const HeroSection = () => {
           className="max-w-5xl mx-auto"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 5 }}
+          transition={{ duration: 1, delay: 1 }}
         >
           {/* Main Headline */}
           <motion.h1
