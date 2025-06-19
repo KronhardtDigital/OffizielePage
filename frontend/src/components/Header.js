@@ -164,7 +164,7 @@ const Header = () => {
                 whileTap={{ scale: 0.95 }}
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.3, delay: 4.2 }}
+                transition={{ duration: 0.3, delay: 1.2 }}
               >
                 <span className="text-xl mr-2">{currentLanguage?.flag}</span>
                 <span className="text-sm font-medium">{language.toUpperCase()}</span>
