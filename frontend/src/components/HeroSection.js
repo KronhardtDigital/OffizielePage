@@ -69,7 +69,7 @@ const HeroSection = () => {
               }}
               transition={{
                 duration: 4,
-                delay: 5 + Math.random() * 3,
+                delay: 1 + Math.random() * 3,
                 repeat: Infinity,
                 ease: "easeOut"
               }}
