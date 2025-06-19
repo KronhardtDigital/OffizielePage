@@ -19,7 +19,12 @@ import './App.css';
 function App() {
   return (
     <ThemeProvider>
-      <div className="App min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+      <motion.div 
+        className="App min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.3 }}
+      >
         <Header />
         <main>
           <HeroSection />
@@ -36,7 +41,7 @@ function App() {
           <ContactSection />
         </main>
         <Footer />
-      </div>
+      </motion.div>
     </ThemeProvider>
   );
 }
