@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
