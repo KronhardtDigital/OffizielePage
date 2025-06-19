@@ -166,7 +166,7 @@ const HeroSection = () => {
             className="text-blue-200 text-sm font-medium"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 7 }}
+            transition={{ duration: 1, delay: 3 }}
           >
             ⭐⭐⭐⭐⭐ {content[language].trustText}
           </motion.div>
