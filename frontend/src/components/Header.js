@@ -210,7 +210,7 @@ const Header = () => {
               whileTap={{ scale: 0.9 }}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.3, delay: 4.4 }}
+              transition={{ duration: 0.3, delay: 1.4 }}
             >
               {isDark ? (
                 <SunIcon className="h-5 w-5" />
