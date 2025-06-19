@@ -48,7 +48,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.3 }}
-          transition={{ duration: 0.8, delay: 5 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
         />
         
         {/* Animated background elements */}
