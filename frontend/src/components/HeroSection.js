@@ -97,7 +97,7 @@ const HeroSection = () => {
               className="block"
               initial={{ letterSpacing: "0.2em" }}
               animate={{ letterSpacing: "0.05em" }}
-              transition={{ duration: 2, delay: 5.5 }}
+              transition={{ duration: 2, delay: 1.5 }}
             >
               {content[language].headline}
             </motion.span>
